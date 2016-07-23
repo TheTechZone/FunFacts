@@ -7,8 +7,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/relativeLayout"
     tools:context="com.example.user.funfacts.FunFactsActivity"
-    android:background="#51b46d">
+    android:background="#51b46d"
+    android:transitionGroup="false">
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,5 +37,6 @@
         android:id="@+id/showFactButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="@android:color/white" />
+        android:background="@android:color/white"
+        android:textColor="#51b46d" />
 </RelativeLayout>

@@ -20,7 +20,6 @@ public class FactBook {
     /* Methods = Actions the Object can take */
 
     public String getFact(){
-
         // The button was clicked , so update TextView with a new fact
         String fact = "";
         //Randomly select a fact
